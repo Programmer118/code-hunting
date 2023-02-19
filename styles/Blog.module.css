@@ -1,0 +1,52 @@
+.main{
+    min-height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 3rem; */
+    padding: 0 20rem;
+    margin-bottom: 50px;
+}
+
+.blogItems h2{
+    color: orangered;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.blogItems h2:hover{
+    color: rgb(247, 243, 242);
+    font-size: 25px;
+}
+
+.p{
+    color: rgb(252, 203, 185) 
+}
+
+@media (max-width: 600px) {
+
+    .main{
+        min-height: 100vh;
+        flex: 1;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 3rem;
+        padding: 0 2rem;
+    }
+
+    .blogItems h2{
+        margin-top: 90px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
